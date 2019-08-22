@@ -18,6 +18,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #1a1a1d;/* custom by Ivan C*/
 }
 
 /* HTML5 display definitions
@@ -135,6 +136,10 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #c3073f;/* custom by Ivan C*/
 }
 
 /**
