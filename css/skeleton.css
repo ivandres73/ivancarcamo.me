@@ -418,3 +418,13 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* CUSTOMS BY IVAN*/
+#footer {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  justify-content: center;
+  color: #fff;
+  background-color: #4e4e50;
+}
