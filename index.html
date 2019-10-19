@@ -10,13 +10,22 @@
   
 </head>
 <body>
-    <ul id="menu_bar">
-        <li id="menu_bar_item"><a href="#">Home</a></li>
-        <li id="menu_bar_item"><a href="#">News</a></li>
-        <li id="menu_bar_item"><a href="#">Contact</a></li>
-        <li id="menu_bar_item"><a href="#">About</a></li>
-        <li id="menu_bar_item"><img src="images/bubblegum50.png" width="45" height="45"></li>
-      </ul>
+  <ul id="menu_bar">
+    <li id="menu_bar_item"><a href="#" class="active">Home</a></li>
+    <li id="menu_bar_item"><a href="#">News</a></li>
+    <li id="menu_bar_item"><a href="#">Contact</a></li>
+    <li id="menu_bar_item"><a href="about.html">About</a></li>
+    <li id="menu_bar_item_img"><a id="a-img" href="#popup1"><img src="images/bubblegum50.png" width="45" height="45"></a></li>
+  </ul>
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <h2>You're a curious one</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+        i like you.
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="one-half column" style="margin-top: 15%">
@@ -32,7 +41,7 @@
     </div>
   </div>
   <div id="footer">
-    <p style="text-align:center">&copy; 2019</p>
+    <p style="text-align:center">&copy; 2019 Gandalf</p>
     <p style="text-align:center">Contact information: <a href="mailto:ivandres73@outlook.com">ivandres73@outlook.com</a>.</p>
   </div>
 </body>
