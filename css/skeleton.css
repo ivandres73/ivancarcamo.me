@@ -598,6 +598,7 @@ card-header {
   margin-bottom: 0;
   color: #1a1a1d;
   background-color: #950740;
+  font-weight: bold;
   text-align: center;
   border-top-left-radius: 10;
   border-top-right-radius: 10;
@@ -638,6 +639,6 @@ card-body:hover .flip-card-inner {
 }
 
 .flip-card-back {
-  color: white;
+  color: #c3073f;
   transform: rotateY(180deg);
 }
