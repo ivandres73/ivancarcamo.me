@@ -160,7 +160,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: white; }
 a:hover {
   color: #0FA0CE; }
 
@@ -581,7 +581,7 @@ card-body {
   background-clip: border-box;
 
   flex: 1 1 auto;
-  min-height: 50px;
+  min-height: 55px;
   color: white;
   perspective: 1000px;
 
@@ -595,12 +595,12 @@ card-body {
 
 
 card-header {
-  /*padding: $card-spacer-y $card-spacer-x;*/
   margin-bottom: 0;
-  color: white;
+  color: #1a1a1d;
+  background-color: #950740;
   text-align: center;
-  /*background-color: $card-cap-bg;*/
-  /*border-bottom: $card-border-width solid $card-border-color;*/
+  border-top-left-radius: 10;
+  border-top-right-radius: 10;
 
   position: relative;
   display: flex;
