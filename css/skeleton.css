@@ -474,6 +474,7 @@ there.
   text-align: center;
   padding: 4px 4px;
   text-decoration: none;
+  cursor: default;
 }
 
 #menu_bar_item_img img {
@@ -481,7 +482,8 @@ there.
 }
 
 #menu_bar_item_img a:hover {
-  background-color: #111;
+  background-color: inherit;
+  cursor: default;
 }
 /********END of clickable imgs**************/
 
