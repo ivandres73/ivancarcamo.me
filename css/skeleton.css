@@ -601,8 +601,8 @@ card-header {
   background-color: #950740;
   font-weight: bold;
   text-align: center;
-  border-top-left-radius: 10;
-  border-top-right-radius: 10;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
   position: relative;
   display: flex;
@@ -612,7 +612,7 @@ card-header {
   word-wrap: break-word;
   background-clip: border-box;
 
-  border: 1 solid #950740;
+  border: 1px solid #950740;
 }
 
 .flip-card-inner {
